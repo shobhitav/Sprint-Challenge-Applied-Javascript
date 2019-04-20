@@ -31,14 +31,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
-
+The Document Object Model, or the “DOM”, is an interface to web pages. It is essentially an API to the page, allowing programs to read and manipulate the page’s content, structure, and styles.
+The DOM is an object-based representation of the source HTML document. It has some differences, but it is essentially an attempt to convert the structure and content of the HTML document into an object model that can be used by various programs.
 2. What is an event?
-
+Event is any kind of interaction of a user with a webpage. For example, if the user clicks a button on a webpage, you might want to respond to that action by displaying an information box.
+There are different types of events like click events,mouse events,keyboard events etc.
 3. What is an event listener?
-
+An event listener is a procedure or function in a computer program that waits for an event to occur. Examples of an event are the user clicking or moving the mouse, network activity, pressing a key on keyboard. The listener is programmed to react to an input or signal by calling the event's handler.
 4. Why would we convert a NodeList into an Array?
-
+NodeLists are array-like but don't feature many of the methods provided by the Array like map,filter.So,we need to convert NodeList into an array using Array.from() method on it.
 5. What is a component?
+Component is a reusable block of code which can be utilised in making web apss.For example accordion component,carousel component.
 
 ### Git Set up
 
