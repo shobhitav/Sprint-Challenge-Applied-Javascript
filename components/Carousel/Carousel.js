@@ -25,10 +25,10 @@ class Carousel {
 
     handleRightButtonClick() {
         //infinite loop
-        this.currentIndex = this.currentIndex == (this.imageElements.length - 1) ? 0 : this.currentIndex + 1;
+         this.currentIndex = this.currentIndex == (this.imageElements.length - 1) ? 0 : this.currentIndex + 1;
 
         //stops on last image
-        //if (this.currentIndex < (this.imageElements.length - 1)) this.currentIndex = this.currentIndex + 1;
+        // if (this.currentIndex < (this.imageElements.length - 1)) this.currentIndex = this.currentIndex + 1;
 
         for (let i = 0; i < this.imageElements.length; i++) {
             this.imageElements[i].style.display = "none"; 
